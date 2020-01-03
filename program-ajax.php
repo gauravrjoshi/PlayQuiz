@@ -1,4 +1,4 @@
-<?php include 'classes/PhpPrograms.php'; ?>
+<?php include 'PhpPrograms.php'; ?>
  <?php if (count($_POST) != 0): $digit = $_POST['digit'];?>	 	
  	<?php if ($_POST['program'] == 'sumOfDigits'): ?>
  		<p>Sum of Digit <?php echo $_POST['digit'];?> is <?php echo $program->sumOfDigits($digit); ?></p>
